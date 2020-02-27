@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Table from './Table/Table';
-//import _ from 'lodash';
 
 const DATA_URL = 'https://raw.githubusercontent.com/blmzv/ah-frontend-intern/master/profiles.json';
 const SORT_DIR = {
