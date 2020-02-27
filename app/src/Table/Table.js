@@ -4,10 +4,10 @@ export default props => (
   <table className="table">
     <thead> 
       <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Phone</th>
-        <th>Company</th>
+        <th onClick={() => props.sortTable('Name')}>Name</th>
+        <th onClick={() => props.sortTable('Email')}>Email</th>
+        <th onClick={() => props.sortTable('Phone')}>Phone</th>
+        <th onClick={() => props.sortTable('Company')}>Company</th>
       </tr>
     </thead>
     <tbody>
